@@ -1,0 +1,16 @@
+{
+  "name": "bug-rollup-ts-incremental",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^4.0.0",
+    "rollup": "^2.0.2",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
